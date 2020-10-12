@@ -185,6 +185,21 @@ function mod:AddMessage(frame, text, ...)
 		text = gsub(text, L["To <Away>(|HBNplayer.-|h):"], (mod.db.profile.channels["away BN Whisper To"] or "[BN:To]") .. (mod.db.profile.addSpace and " %1:" or "%1:"))
 		text = gsub(text, L["To <Busy>(|HBNplayer.-|h):"], (mod.db.profile.channels["busy BN Whisper To"] or "<Away>[BN:To]") .. (mod.db.profile.addSpace and " %1:" or "%1:"))
 		text = gsub(text, L["(|HBNplayer.-|h): whispers:"], (mod.db.profile.channels["BN Whisper From"] or "<Busy>[BN:To") .. (mod.db.profile.addSpace and " %1:" or "%1:"))
+
+		-- General, Trade, and LocalDefense replacements don't work in the upstream fork.
+		--
+		-- My guess is that this is due to a chat channel formatting change:
+		--    Old: "[1. General]"
+		--    New: "[1. General - Northern Barrens]"
+		--
+		-- Not a lot of Lua experience so not sure how best to patch the replaceChannel functon.
+		-- Instead, added a very dumb hack: manually replace the strings.
+		-- This is sloppy and can affect other chat messages, such as /chatlist and "Changed Channel:".
+		-- If someone can fix this properly I would appreciate it.
+		--
+		text = gsub(text, "(%[1%. General %- .-%])(.)", (mod.db.profile.channels["General"] or "GRN") .. "%2", 1)
+		text = gsub(text, "(%[2%. Trade %- City%])(.)", (mod.db.profile.channels["Trade"] or "TRD") .. "%2", 1)
+		text = gsub(text, "(%[3%. LocalDefense %- .-%])(.)", (mod.db.profile.channels["LocalDefense"] or "LDF") .. "%2", 1)
 	end
 	return self.hooks[frame].AddMessage(frame, text, ...)
 end
