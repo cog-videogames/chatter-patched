@@ -1,0 +1,12 @@
+tag 37134be4acbcd71d9af46dd0d4b4d2630e919f64 1.6.0
+Author:	Benjamin Staneck <staneck@gmail.com>
+Date:	Fri Aug 30 02:23:46 2019 +0200
+
+Tag as 1.6.0
+
+commit 23f1398e042f24702e14668bef0fa8964d9a54ed
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Aug 30 02:23:03 2019 +0200
+
+    remove obsolete toc entries
+
