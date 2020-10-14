@@ -4,12 +4,12 @@ BUT, [the original](https://www.curseforge.com/wow/addons/chatter) hasn't been u
 
 * Several crashes.
 * Chat Backgrounds are broken.
+* Pet battle frames are broken.
 * Channel Names module won't replace General, Trade, and LocalDefense.
 * Player Names module won't replace or remove [name brackets].
-* Pet battle frames [are broken](https://www.curseforge.com/wow/addons/chatter-patched-for-shadowlands?comment=10).
 * Likely a few others - comments / reports on the original are currently unanswered.
 
-This new addon fixes problems #1, 2, and 3. I figured fixing the bugs was easier than switching to Prat.
+This new addon fixes the first four of those. I figured fixing the bugs was easier than switching to Prat.
 
 **Further bugfixes will probably not be implemented.**
 
