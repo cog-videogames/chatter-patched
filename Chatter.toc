@@ -1,11 +1,11 @@
-## Interface: 80200
+## Interface: 90001
 ## Title: Chatter
 ## Notes: Lightweight Chat Improvements
 ## Notes-zhTW: 一個輕量級的聊天增強插件
 ## Notes-zhCN: 一个轻量级的聊天增强插件
 ## Author: Antiarc
 ## X-Category: Chat/Communication
-## Version: 1.6.0
+## Version: 1.7.0
 ## SavedVariables: ChatterDB
 
 ## OptionalDeps: Ace3, LibSharedMedia-3.0, LibSink-2.0, LibAlts-1.0, LibDialog-1.0, LibChatAnims
