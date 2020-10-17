@@ -28,8 +28,7 @@ L["Alerts you when someone says a keyword or speaks in a specified channel."] = 
 --[[ L["All Edge resizing"] = "All Edge resizing"--]] 
 L["Allows you to make the chat frames much smaller than usual."] = "Permitirme crear marcos de chat más pequeños de lo normal."
 L["Allows you to type messages longer than normal, and splits message that are too long."] = "Permitirme escribir mensajes más largos de lo normal y recortar mensajes demasiado largos."
---[[Translation missing --]]
---[[ L["Allows you to use the edge for resizing, instead of just the lower right corner."] = "Allows you to use the edge for resizing, instead of just the lower right corner."--]] 
+L["Allows you to use the edge for resizing, instead of just the lower right corner."] = "Permite utilizar cualquier borde para redimensionar, en lugar de solo la esquina inferior derecha."
 --[[Translation missing --]]
 --[[ L["Alt Linking"] = "Alt Linking"--]] 
 --[[Translation missing --]]
@@ -54,10 +53,8 @@ L["Border color"] = "Color del borde"
 L["Border texture"] = "Textura del borde"
 L["Borders/Background"] = "Bordes/Fondo"
 L["Bottom"] = "Debajo"
---[[Translation missing --]]
---[[ L["Button Height"] = "Button Height"--]] 
---[[Translation missing --]]
---[[ L["Button's height, and text offset from the frame"] = "Button's height, and text offset from the frame"--]] 
+L["Button Height"] = "Altura del botón"
+L["Button's height, and text offset from the frame"] = "Altura del botón y desplazamiento del texto desde el marco"
 L["Center"] = "Centrado"
 L["Channel Colors"] = "Color de canales"
 L["Channel Names"] = "Nombres de canal"
@@ -96,13 +93,11 @@ L["Death Knight"] = "Caballero de la Muerte"
 L["Destroys all your saved class/level data"] = "Destruye todos los datos salvados de clase/nivel."
 L["Disable Buttons"] = "Ocultar botones"
 L["Disable Fading"] = "Desactivar desvanecerse"
---[[Translation missing --]]
---[[ L["Disable server side storage of chat frame position and size."] = "Disable server side storage of chat frame position and size."--]] 
+L["Disable server side storage of chat frame position and size."] = "Desactivar el almacenamiento en el servidor de la posición y el tamaño del marco de chat."
 L["Disabled"] = "Desactivado"
 L["Druid"] = "Druida"
 L["Dungeon Guide"] = "Guía de Mazmorra"
---[[Translation missing --]]
---[[ L["Edge Size"] = "Edge Size"--]] 
+L["Edge Size"] = "Tamaño del borde"
 L["Edit Box History"] = "Historial de la caja de texto"
 --[[Translation missing --]]
 --[[ L["Edit Box Polish"] = "Edit Box Polish"--]] 

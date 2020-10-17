@@ -424,14 +424,18 @@ end
 
 function mod:SetBackdrop()
 	for _, frame in ipairs(self.frames) do
-		-- frame:SetBackdrop({
-		-- 	bgFile = Media:Fetch("background", self.db.profile.background),
-		-- 	edgeFile = Media:Fetch("border", self.db.profile.border),
-		-- 	tile = true,
-		-- 	tileSize = self.db.profile.tileSize,
-		-- 	edgeSize = self.db.profile.edgeSize,
-		-- 	insets = {left = self.db.profile.inset, right = self.db.profile.inset, top = self.db.profile.inset, bottom = self.db.profile.inset}
-		-- })
+		-- Restore pre 9.0 backdrop functionality
+		if not frame.SetBackdrop then
+			Mixin(frame, BackdropTemplateMixin)
+		end
+		frame:SetBackdrop({
+			bgFile = Media:Fetch("background", self.db.profile.background),
+			edgeFile = Media:Fetch("border", self.db.profile.border),
+			tile = true,
+			tileSize = self.db.profile.tileSize,
+			edgeSize = self.db.profile.edgeSize,
+			insets = {left = self.db.profile.inset, right = self.db.profile.inset, top = self.db.profile.inset, bottom = self.db.profile.inset}
+		})
 		local c = self.db.profile.backgroundColor
 		frame:SetBackdropColor(c.r, c.g, c.b, c.a)
 
