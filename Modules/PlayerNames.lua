@@ -345,9 +345,7 @@ local function changeBNetName(misc, id, moreMisc, fakeName, tag, colon)
 	if BNGetGameAccountInfo then -- pre 9.0
 		_, charName, _, _, _, _, _, localizedClass = BNGetGameAccountInfo(id)
 	else
-		local gameAccountInfo = C_BattleNet.GetGameAccountInfoByID(id)
-		charName = gameAccountInfo.characterName
-		localizedClass = gameAccountInfo.className
+		local _, charName, _, _, _, _, _, localizedClass = C_BattleNet.GetGameAccountInfoByID(id)
 	end
 	if charName ~= "" then
 		if storedName then storedName[id] = charName end --Store name for logoff events, if enabled
@@ -461,7 +459,7 @@ end
 
 function mod:AddMessage(frame, text, ...)
 	if text and type(text) == "string" then
-		-- text = gsub(text, "(|HBNplayer:%S-|k:)(%d-)(:%S-|h)%[(%S-)%](|?h?)(:?)", changeBNetName)
+		text = gsub(text, "(|HBNplayer:%S-|k:)(%d-)(:%S-|h)%[(%S-)%](|?h?)(:?)", changeBNetName)
 		text = gsub(text, "(|HBNplayer:%S-|k:)(%d-)(:%S-BN_INLINE_TOAST_ALERT%S-|h)%[(%S-)%](|?h?)(:?)",fixLogin)
 	end
 	return self.hooks[frame].AddMessage(frame, text, ...)

@@ -1,6 +1,6 @@
 Chatter is a comprehensive, lightweight, mega-configurable chat enhancement addon.
 
-BUT, [the original](https://www.curseforge.com/wow/addons/chatter) hasn't been updated since Aug 2019 and has some problems:
+BUT, [the original](https://www.curseforge.com/wow/addons/chatter) has some problems:
 
 * Bnet messages may fail to appear.
 * Copying a webiste URL does not work.

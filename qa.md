@@ -43,8 +43,7 @@ Easy way to check whispers, bnet whispers, chat channels, alt-click invites, and
 	- Window is empty when there is a bnet message in the channel. No lua error occurs for this one.
 
 - Player Names
-	- changeBNetName is disabled because it's a troublemaker, your Bnet whispers might look less cool
-
+	- "Emphasize self in messages" does not work, but at least it won't crash.
 	- Won't replace or remove [name brackets].
 
 ## KB
