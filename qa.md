@@ -24,6 +24,9 @@ Easy way to check whispers, bnet whispers, chat channels, alt-click invites, and
 
 ## Working in this fork:
 
+- Channel Names
+	- Replacing General, Trade, and LocalDefense works
+
 - URL Copy
 	- Clicking an HTTP link should not crash
 
@@ -41,6 +44,8 @@ Easy way to check whispers, bnet whispers, chat channels, alt-click invites, and
 
 - Player Names
 	- changeBNetName is disabled because it's a troublemaker, your Bnet whispers might look less cool
+
+	- Won't replace or remove [name brackets].
 
 ## KB
 
