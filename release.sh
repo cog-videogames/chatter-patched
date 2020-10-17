@@ -4,7 +4,7 @@
 
 gitDir="chatter-patched"
 releaseDir="Chatter"
-releasePrefix="Chatter-1.6.0-patched-"
+releasePrefix="Chatter-1.7.0-patched-"
 
 # Various sanity checks
 
