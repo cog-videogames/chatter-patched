@@ -54,7 +54,7 @@ function mod:OnInitialize()
 	Media.RegisterCallback(mod, "LibSharedMedia_Registered")
 	for i = 1, NUM_CHAT_WINDOWS do
 		local cf = _G["ChatFrame" .. i]
-		local frame = CreateFrame("Frame", nil, cf, "ChatFrameBorderTemplate,BackdropTemplate")
+		local frame = CreateFrame("Frame", nil, cf, "ChatFrameBorderTemplate")
 		frame:EnableMouse(false)
 		cf:SetFrameStrata("LOW")
 		frame:SetFrameStrata("BACKGROUND")
@@ -201,7 +201,7 @@ function mod:LibSharedMedia_Registered()
 end
 
 function mod:Decorate(cf)
-	local frame = CreateFrame("Frame", nil, cf, "ChatFrameBorderTemplate,BackdropTemplate")
+	local frame = CreateFrame("Frame", nil, cf, "ChatFrameBorderTemplate")
 	frame:EnableMouse(false)
 	cf:SetFrameStrata("LOW")
 	frame:SetFrameStrata("BACKGROUND")
