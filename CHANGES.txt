@@ -1,12 +1,12 @@
-tag df457520523cb6bf496c56d6de78cad9819ee915 1.7.2
+tag 534dd423071718e58917884ea515bcad601cce87 1.7.3
 Author:	Benjamin Staneck <staneck@gmail.com>
-Date:	Thu Oct 22 03:58:35 2020 +0200
+Date:	Thu Oct 22 16:07:34 2020 +0200
 
-fix more renamed API
+make API backwards compatible
 
-commit 9ad6cf85729ed106667704ef3b21e85c5bc273e5
+commit 17f01d49527119415c55e7e082f4e8c6f8286916
 Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Thu Oct 22 03:56:13 2020 +0200
+Date:   Thu Oct 22 16:07:02 2020 +0200
 
-    Fix a few more renamed APIs
+    make API calls backwards compatible
 
