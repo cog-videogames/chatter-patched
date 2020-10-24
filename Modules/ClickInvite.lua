@@ -6,15 +6,15 @@ local L = LibStub("AceLocale-3.0"):GetLocale(addon)
 mod.modName = L["Invite Links"]
 mod.toggleLabel = L["Invite Links"]
 
-local gsub = _G.string.gsub
-local ipairs = _G.ipairs
-local fmt = _G.string.format
-local sub = _G.string.sub
-local InviteUnit = C_PartyInfo.InviteUnit
-local next = _G.next
-local type = _G.type
-local IsAltKeyDown = _G.IsAltKeyDown
-local match = _G.string.match
+local gsub = string.gsub
+local ipairs = ipairs
+local fmt = string.format
+local sub = string.sub
+local InviteUnit = C_PartyInfo and C_PartyInfo.InviteUnit or InviteUnit
+local next = next
+local type = type
+local IsAltKeyDown = IsAltKeyDown
+local match = string.match
 
 local options = {
 	addWord = {
