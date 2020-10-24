@@ -1,12 +1,12 @@
-tag e0a78a1aa42d42283cd9fb8c90ecef69b0ec8b92 1.7.1
+tag df457520523cb6bf496c56d6de78cad9819ee915 1.7.2
 Author:	Benjamin Staneck <staneck@gmail.com>
-Date:	Thu Oct 15 23:56:33 2020 +0200
+Date:	Thu Oct 22 03:58:35 2020 +0200
 
-bug fix
+fix more renamed API
 
-commit 7b91fa24540d9f2fee03d83630b6acc58200c112
+commit 9ad6cf85729ed106667704ef3b21e85c5bc273e5
 Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Thu Oct 15 23:55:46 2020 +0200
+Date:   Thu Oct 22 03:56:13 2020 +0200
 
-    Fix GetGameAccount usage
+    Fix a few more renamed APIs
 
