@@ -1,18 +1,12 @@
-tag 995b7dc9618baba9ee19e5308752bc00c2cb0540 1.7.0
+tag e0a78a1aa42d42283cd9fb8c90ecef69b0ec8b92 1.7.1
 Author:	Benjamin Staneck <staneck@gmail.com>
-Date:	Wed Oct 14 20:42:44 2020 +0200
+Date:	Thu Oct 15 23:56:33 2020 +0200
 
-Shadowlands
+bug fix
 
-commit 1f403111f6d44e3c611b11ae5a37d09527a6460d
-Author: elvador <reysptools@googlemail.com>
-Date:   Wed Oct 14 20:30:52 2020 +0200
-
-    Updates for 9.0
-
-commit 0a4775b80fe38f2e39b9316d58a6dfdc9f601f5d
+commit 7b91fa24540d9f2fee03d83630b6acc58200c112
 Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Fri Oct 11 02:00:23 2019 +0200
+Date:   Thu Oct 15 23:55:46 2020 +0200
 
-    Create FUNDING.yml
+    Fix GetGameAccount usage
 
