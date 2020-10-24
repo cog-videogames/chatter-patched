@@ -22,6 +22,13 @@ Easy way to check whispers, bnet whispers, chat channels, alt-click invites, and
 - Alt Linking
 	- "Use guildnotes" enabled: should not crash
 
+- Invite links
+	- Alt click name should not crash
+
+- Player Names
+	- Bnet messages should appear
+	- Clicking a Bnet player name to compose should not crash
+
 ## Working in this fork:
 
 - Channel Names
@@ -29,13 +36,6 @@ Easy way to check whispers, bnet whispers, chat channels, alt-click invites, and
 
 - URL Copy
 	- Clicking an HTTP link should not crash
-
-- Invite links
-	- Alt click name should not crash
-
-- Player Names
-	- Bnet messages should appear
-	- Clicking a Bnet player name to compose should not crash
 
 ## Broken:
 
